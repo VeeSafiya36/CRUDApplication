@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="backgroundColor">
+  <div class= "mt-3 mb-3 ms-5 me-5 justify-content:center">
+  <form >
+  <h4 class= "mt-3 p-3 text-success">Add New Artist Information</h4>
+  <label for="name">Artist Name</label>
+  <input type="text" name="name" id="name" />
+
+  <label for="age">Age</label>
+  <input type="number" name="age" id="age" />
+
+  <label for="city">City</label>
+  <input type="text" name="city" id="city" />
+
+  <button type="button" class="btn btn-outline-success" id="submit">Vote</button>
+</form>
+
+  </div>
+
+  <div class="justify-content:center mb-5 ms-5 me-5">
+    <form>
+      <h4 class="mt-3 mb-3 p-3 text-success">Update Artist Information</h4>
+      <label for="id">ID</label>
+      <input type="number" name="ID" id="updateID"/>
+      
+      <label for="updateName">Artist Name</label>
+      <input type="text" name="updateName" id="updateName" />
+
+      <label for="updateAge">Age</label>
+      <input type="number" name="updateAge" id="updateAge" />
+
+      <label for="updateCity">City</label>
+      <input type="text" name="updateCity" id="updateCity" />
+
+      <button type="button" class="btn btn-outline-success" id="update">Update</button>
+    </form>
+  </div>
+
+  <div class= "mt-5 ms-4 me-4">
+    <table class="table table-success table-striped mt-5 p-3">
+      <tbody>
+      <thead>
+        <th>ID</th>
+
+        <th>Name</th>
+
+        <th>Age</th>
+
+        <th>City</th>
+
+        <th>Delete</th>
+
+      </thead>
+      </tbody>
+    </table>
+
+    
+    
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+
+   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+   
+    <script src="script.js"></script>   
+</body>
+</html>
